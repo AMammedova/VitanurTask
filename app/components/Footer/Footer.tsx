@@ -106,7 +106,7 @@ const Footer = () => {
           <div style={{ widows: "50%" }}>
             <h5 className={styles.newsletterTitle}>Join our newsletter</h5>
             <p className={styles.newsletterDescription}>
-              We'll send you a nice letter once per week. No spam.
+              We&apos;ll send you a nice letter once per week. No spam.
             </p>
           </div>
           <form className={styles.newsletterForm}>
@@ -121,130 +121,75 @@ const Footer = () => {
           </form>
         </div>
       </div>
-      {/* <div className={styles.bottomFooter}>
-          <div >
+      <div className={styles.bottomFooter}>
+        <div className={styles.container}>
           <ul className={styles.footerLinks}>
-              <li>
-                <a href="#">Repairs</a>
-              </li>
-              <li>
-                <a href="#">Locations</a>
-              </li>
-              <li>
-                <a href="#">About us</a>
-              </li>
-              <li>
-                <a href="#">Contact Us</a>
-              </li>
-              <li>
-                <a href="#">Blogs</a>
-              </li>
-              <li>
-                <a href="#">Careers</a>
-              </li>
-            </ul>
-            <p className={styles.footerText}>
-              Everyone deserves a second chance, so do your phone!
-            </p>
-          
-            <div className={styles.socialLinks}>
-              <a href="#">
-                <Image
-                  src="/icons/sosialicon1.svg"
-                  alt="LinkedIn"
-                  width={24}
-                  height={24}
-                />
-              </a>
-              <a href="#">
-                <Image
-                  src="/icons/socialicon2.svg"
-                  alt="Facebook"
-                  width={24}
-                  height={24}
-                />
-              </a>
-              <a href="#">
-                <Image
-                  src="/icons/socialicon3.svg"
-                  alt="GitHub"
-                  width={24}
-                  height={24}
-                />
-              </a>
-              <a href="#">
-                <Image
-                  src="/icons/sosialicon4.svg"
-                  alt="GitHub"
-                  width={24}
-                  height={24}
-                />
-              </a>
-            </div>
-          <div className={styles.faq}>
+            <li>
+              <a href="#">Repairs</a>
+            </li>
+            <li>
+              <a href="#">Locations</a>
+            </li>
+            <li>
+              <a href="#">About us</a>
+            </li>
+            <li>
+              <a href="#">Contact Us</a>
+            </li>
+            <li>
+              <a href="#">Blogs</a>
+            </li>
+            <li>
+              <a href="#">Careers</a>
+            </li>
+          </ul>
           <p className={styles.footerText}>
+            Everyone deserves a second chance, so do your phone!
+          </p>
+          <div className={styles.socialLinks}>
+            <a href="#">
+              <Image
+                src="/icons/sosialicon1.svg"
+                alt="LinkedIn"
+                width={24}
+                height={24}
+              />
+            </a>
+            <a href="#">
+              <Image
+                src="/icons/socialicon2.svg"
+                alt="Facebook"
+                width={24}
+                height={24}
+              />
+            </a>
+            <a href="#">
+              <Image
+                src="/icons/socialicon3.svg"
+                alt="GitHub"
+                width={24}
+                height={24}
+              />
+            </a>
+            <a href="#">
+              <Image
+                src="/icons/sosialicon4.svg"
+                alt="GitHub"
+                width={24}
+                height={24}
+              />
+            </a>
+          </div>
+          <div className={styles.faq}>
+            <p className={styles.footerText}>
               &copy; 2077 Untitled UI. All rights reserved.
             </p>
             <div className={styles.terms}>
-                <span>Privacy</span>
-                <span>Terms</span>
-                <span>FAQs</span>
-
+              <span>Privacy</span>
+              <span>Terms</span>
+              <span>FAQs</span>
             </div>
           </div>
-          </div>
-        </div> */}
-      <div className={styles.bottomFooter}>
-        <div className={styles.container}>
-
-  <ul className={styles.footerLinks}>
-    <li>
-      <a href="#">Repairs</a>
-    </li>
-    <li>
-      <a href="#">Locations</a>
-    </li>
-    <li>
-      <a href="#">About us</a>
-    </li>
-    <li>
-      <a href="#">Contact Us</a>
-    </li>
-    <li>
-      <a href="#">Blogs</a>
-    </li>
-    <li>
-      <a href="#">Careers</a>
-    </li>
-  </ul>
-  <p className={styles.footerText}>
-    Everyone deserves a second chance, so do your phone!
-  </p>
-  <div className={styles.socialLinks}>
-    <a href="#">
-      <Image src="/icons/sosialicon1.svg" alt="LinkedIn" width={24} height={24} />
-    </a>
-    <a href="#">
-      <Image src="/icons/socialicon2.svg" alt="Facebook" width={24} height={24} />
-    </a>
-    <a href="#">
-      <Image src="/icons/socialicon3.svg" alt="GitHub" width={24} height={24} />
-    </a>
-    <a href="#">
-      <Image src="/icons/sosialicon4.svg" alt="GitHub" width={24} height={24} />
-    </a>
-  </div>
-  <div className={styles.faq}>
-   
-    <p className={styles.footerText}>
-      &copy; 2077 Untitled UI. All rights reserved.
-    </p>
-    <div className={styles.terms}>
-      <span>Privacy</span>
-      <span>Terms</span>
-      <span>FAQs</span>
-    </div>
-  </div>
         </div>
       </div>
     </footer>
