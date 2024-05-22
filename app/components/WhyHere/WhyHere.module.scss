@@ -96,7 +96,11 @@
 
 @media screen and (max-width: 768px) {
   .whyHere {
-    width: 90%;
+    width: 100% !important;
+    padding: 3rem 1rem !important;
+    .description{
+      width: 100% !important;
+    }
 
     .item {
       padding: 1rem;

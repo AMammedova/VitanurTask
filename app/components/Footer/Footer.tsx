@@ -123,7 +123,8 @@ const Footer = () => {
       </div>
       <div className={styles.bottomFooter}>
         <div className={styles.container}>
-          <ul className={styles.footerLinks}>
+        <div className={styles.footerLinksContainer}>
+        <ul className={styles.footerLinks}>
             <li>
               <a href="#">Repairs</a>
             </li>
@@ -146,6 +147,7 @@ const Footer = () => {
           <p className={styles.footerText}>
             Everyone deserves a second chance, so do your phone!
           </p>
+        </div>
           <div className={styles.socialLinks}>
             <a href="#">
               <Image
